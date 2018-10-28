@@ -1,0 +1,20 @@
+{
+  "manifest_version":2,
+  "name": "PaperBox",
+  "version": "1.0",
+  "description": "pruebas paperbox.",
+   "permissions": [
+          "storage"
+        ],
+  "icons":{
+  	"16":"imagenes/icon16.png",
+  	"48":"imagenes/icon48.png",
+  	"128":"imagenes/icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "login.html",
+    "default_icon": "imagenes/app_logo.png",
+    "default_title": "PaperBox"
+  }
+}
+
